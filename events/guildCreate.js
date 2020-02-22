@@ -6,7 +6,7 @@ var prefix = ayarlar.prefix;
 
 const girismesaj = [
   'Sunucunuza Eklendim',
-  'Fyukas bot.',
+  'Brightness bot.',
   'Kayıt Sistemi'
 ]
 

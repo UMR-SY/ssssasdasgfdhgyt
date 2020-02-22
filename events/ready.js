@@ -7,8 +7,8 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "ArdaDemr Youtube",
-        "ArdaDemr Kayıt Botu",
+        "Brigthness",
+        "https://discord.gg/pHQg3q4",
         "Kayıt Sistemi"  
     ];
 

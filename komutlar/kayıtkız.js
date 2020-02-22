@@ -11,14 +11,14 @@ exports.run = async (client, message, args) => {
   if (!member) return message.channel.send(":x: Bir Üye Etiketlemelisin!");
   if (!isim) return message.channel.send(":x: Bir İsim Yazmalısın!");
   member.setNickname(`${isim}`);
-  member.removeRole('ALINACAK ROL')
-  member.addRole('VERILECEK ROL')
+  member.removeRole('679762613659631674')
+  member.addRole('679756862144512120')
 const embed = new Discord.RichEmbed()
 
 
-      .addField(`**🏷 ArdaDemr Kayıt 🏷**`,
+      .addField(`**🏷 Brightness Kayıt 🏷**`,
       `\n**🔸️Kayıt Edilen Kullanıcı:** ${member.user} \n🔸️**Kayıt Eden Yetkili:** \`${message.author.username}\``)
-client.channels.get('LOG KANAL ID').send(embed)
+client.channels.get('680872181370060911').send(embed)
 };
 
 exports.conf = {
@@ -29,6 +29,6 @@ exports.conf = {
 };
 exports.help = {
   name: "kız",
-  description: "ArdaDemr Kayıt Sistemi",
-  usage: "ArdaDemr Kayıt Sistemi"
+  description: "Kayıt Sistemi",
+  usage: "Kayıt Sistemi"
 };

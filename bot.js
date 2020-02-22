@@ -81,7 +81,7 @@ client.unload = command => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('Aleyküm selam,  hoş geldin ^^');
+    msg.reply(' Aleyküm selam,  hoş geldin ^_^');
   }
 });
 
@@ -114,25 +114,25 @@ client.login(ayarlar.token);
 //----------------------------------HOSGELDIN-----------------------------//
 client.on('guildMemberAdd', member => {
   let guild = member.guild;
-  const channel = member.guild.channels.find('name', 'KAYIT KANALI ADI');
+  const channel = member.guild.channels.find('name', 'kayıt');
   if (!channel) return;
   const embed = new Discord.RichEmbed()
   .setColor('#e7a3ff')
         .setAuthor(`Kayıt Sistemi`)
-        .addField(`Kayıt Olmak İçin`,`Bulunduğumuz Chate Gerçek İsmini Ve Yaşını Yaz!`)
+        .addField(`Kayıt Olmak İçin`,`Ses Teyit Odasına Gir!`)
   channel.sendEmbed(embed); 
 });
 
 //----------------------------------HOSGELDIN-----------------------------//
 client.on("guildMemberAdd", member => {
-var rol = member.guild.roles.get("GELİNCE VERİLECEK ROL ID")
-var rol2 = member.guild.roles.get("GELİNCE VERİLECEK ROL ID")
+var rol = member.guild.roles.get("680872754295472232")
+var rol2 = member.guild.roles.get("680872754295472232")
 member.addRole(rol)
 member.addRole(rol2)
    })
 //----------------------------------HOSGELDIN-----------------------------//
 client.on("guildMemberAdd", async member => {
-  const kanal = member.guild.channels.find("name", "KAYIT KANALI ADI");
+  const kanal = member.guild.channels.find("name", "kayıt");
   kanal.sendMessage(
       `Selam ${member} HOŞGELDİN.`
   );

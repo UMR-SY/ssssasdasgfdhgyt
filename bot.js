@@ -150,3 +150,15 @@ client.on("userUpdate", async(old, nev) => {
       client.guilds.get("679756597303836672").members.get(nev.id).addRole("680490381703774272")}
   }
   })
+
+const express = require('express');
+const app = express();
+const http = require('http');
+    app.get("/", (request, response) => {
+    console.log(`Botun Pingi Yenilenmiştir.Yeni Pinge Merhaba!`);
+    response.sendStatus(200);
+    });
+    app.listen(process.env.PORT);
+    setInterval(() => {
+    http.get(`brightnessmerkez`);
+    }, 280000);   

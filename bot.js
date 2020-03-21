@@ -138,3 +138,15 @@ client.on("guildMemberAdd", async member => {
   );
 });
 //----------------------------------HOSGELDIN-----------------------------//
+
+client.on("userUpdate", async(old, nev) => {
+  if(old.username !== nev.username) {
+  if(!nev.username.includes("Tagınız") && client.guilds.get("679756597303836672").members.get(nev.id).roles.has("680490381703774272")) {
+     client.guilds.get("Sunuc ID").members.get(nev.id).removeRole("Tag Alınca Verilecek Rol ID")
+     client.channels.get('Tag Log Kanalı ID').send(`**<a:Emojı Tam Adı:Emojı Id> ${nev}, "Tagınız" tagını çıkardığı için (Rolunuzun Tam Adırolü alındı!**`)
+    } 
+     if(nev.username.includes("ϟ") && !client.guilds.get("679756597303836672").members.get(nev.id).roles.has("680490381703774272")) {
+      client.channels.get('690898029917634611').send(`**<a:gizem Tam Adı:gizem Id>690891028906901544 ${nev}, "Tagınız" tagını aldığı için (Team Of Brigthness) Rolü verildi!**`) 
+      client.guilds.get("679756597303836672").members.get(nev.id).addRole("680490381703774272")}
+  }
+  })

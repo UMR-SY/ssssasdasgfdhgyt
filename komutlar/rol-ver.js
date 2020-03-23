@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'rol-ver',
+  name: 'tek-rol-ver',
   description: 'İstediğiniz kişiyi istediğiniz rolü verir.',
   usage: 'rol-ver [kullanıcı] [@rol]'
 };

@@ -65,6 +65,7 @@
     "node-superfetch": "^0.1.9",
     "node.bittrex.api": "^1.0.0",
     "npm-cli-path": "^3.1.2",
+    "npm-register": "^2.8.2",
     "oauth": "^0.9.15",
     "oauth2": "^0.0.1",
     "os": "^0.1.1",
@@ -96,10 +97,10 @@
     "twitter": "^1.7.1",
     "url": "^0.11.0",
     "useful-tools": "^0.2.6",
+    "vm.js": "0.0.6",
     "weather-js": "^2.0.0",
     "winston": "^3.2.1",
-    "ytdl-core": "^0.29.0",
-    "npm-register": "^2.8.2"
+    "ytdl-core": "^0.29.0"
   },
   "engines": {
     "node": "8.x"

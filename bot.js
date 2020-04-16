@@ -141,11 +141,11 @@ client.on("guildMemberAdd", async member => {
 
 client.on("userUpdate", async(old, nev) => {
   if(old.username !== nev.username) {
-  if(!nev.username.includes("ϟ") && client.guilds.get("679756597303836672").members.get(nev.id).roles.has("680490381703774272")) {
+  if(!nev.username.includes("") && client.guilds.get("679756597303836672").members.get(nev.id).roles.has("680490381703774272")) {
      client.guilds.get("679756597303836672").members.get(nev.id).removeRole("680490381703774272")
      client.channels.get('690898029917634611').send(`** ${nev}, "ϟ" tagını çıkardığı için (Team of Brigthness) rolü alındı!**`)
     } 
-     if(nev.username.includes("ϟ") && !client.guilds.get("679756597303836672").members.get(nev.id).roles.has("680490381703774272")) {
+     if(nev.username.includes("") && !client.guilds.get("679756597303836672").members.get(nev.id).roles.has("680490381703774272")) {
       client.channels.get('690898029917634611').send(`** ${nev}, "ϟ" tagını aldığı için (Team Of Brigthness) Rolü verildi!**`) 
       client.guilds.get("679756597303836672").members.get(nev.id).addRole("680490381703774272")}
   }

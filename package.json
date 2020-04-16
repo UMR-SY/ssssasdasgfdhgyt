@@ -1,3 +1,4 @@
+
 {
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
@@ -30,7 +31,7 @@
     "discord-anti-spam-tr": "^0.5.6",
     "discord-bots-api": "^0.0.2",
     "discord-eco": "^0.0.10",
-    "discord.js": "^12.1.1",
+    "discord.js": "^11.4.2",
     "discord.js-commando": "^0.10.0",
     "discord.js-lavalink": "^2.2.2",
     "discord.nd": "^0.0.3",
@@ -65,7 +66,6 @@
     "node-superfetch": "^0.1.9",
     "node.bittrex.api": "^1.0.0",
     "npm-cli-path": "^3.1.2",
-    "npm-register": "^2.8.2",
     "oauth": "^0.9.15",
     "oauth2": "^0.0.1",
     "os": "^0.1.1",
@@ -76,7 +76,7 @@
     "passport-strategy": "^1.0.0",
     "path": "^0.12.7",
     "pokedex-api": "^1.1.2",
-    "quick.db": "^7.1.1",
+    "quick.db": "^6.3.2",
     "random-puppy": "^1.1.0",
     "randomstring": "^1.1.5",
     "request": "^2.88.0",
@@ -97,7 +97,6 @@
     "twitter": "^1.7.1",
     "url": "^0.11.0",
     "useful-tools": "^0.2.6",
-    "vm.js": "0.0.6",
     "weather-js": "^2.0.0",
     "winston": "^3.2.1",
     "ytdl-core": "^0.29.0"
@@ -115,3 +114,4 @@
     "express"
   ]
 }
+

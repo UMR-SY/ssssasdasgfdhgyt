@@ -11,13 +11,13 @@ exports.run = async (client, message, args) => {
   if (!member) return message.channel.send(":x: Bir Üye Etiketlemelisin!");
   if (!isim) return message.channel.send(":x: Bir İsim Yazmalısın!");
   member.setNickname(`${isim}`);
-  member.removeRole("");
-  member.addRole("679757249836875789");
+  member.removeRole("701863150798110841");
+  member.addRole("701863068715581501");
   const embed = new Discord.RichEmbed().addField(
     `**🏷 MB Code Kayıt Sistemiz 🏷**`,
     `\n**🔸️Kayıt Edilen Kullanıcı:** ${member.user} \n🔸️**Kayıt Eden Yetkili:** \`${message.author.username}\``
   );
-  client.channels.get("680872181370060911").send(embed);
+  client.channels.get("701090609968185446").send(embed);
 };
 
 exports.conf = {

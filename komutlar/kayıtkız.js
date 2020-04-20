@@ -11,14 +11,14 @@ exports.run = async (client, message, args) => {
   if (!member) return message.channel.send(":x: Bir Üye Etiketlemelisin!");
   if (!isim) return message.channel.send(":x: Bir İsim Yazmalısın!");
   member.setNickname(`${isim}`);
-  member.removeRole('679762613659631674')
-  member.addRole('679756862144512120')
+  member.removeRole('701863150798110841')
+  member.addRole('701863036528492564')
 const embed = new Discord.RichEmbed()
 
 
       .addField(`**MB Code Kayıt Sistemi**`,
       `\n**🔸️Kayıt Edilen Kullanıcı:** ${member.user} \n🔸️**Kayıt Eden Yetkili:** \`${message.author.username}\``)
-client.channels.get('680872181370060911').send(embed)
+client.channels.get('701090609968185446').send(embed)
 };
 
 exports.conf = {

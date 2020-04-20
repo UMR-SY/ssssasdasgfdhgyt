@@ -30,5 +30,5 @@ exports.conf = {
 exports.help = {
   name: 'tek-rol-ver',
   description: 'İstediğiniz kişiyi istediğiniz rolü verir.',
-  usage: 'rol-ver [kullanıcı] [@rol]'
+  usage: 'MB Code'
 };

@@ -7,9 +7,8 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "Brigthness",
-        "https://discord.gg/pHQg3q4",
-        "Kayıt Sistemi"  
+        "MB Code",
+        "Kayıt Botu!"  
     ];
 
     setInterval(function() {

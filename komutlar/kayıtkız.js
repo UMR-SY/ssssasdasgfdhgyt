@@ -16,7 +16,7 @@ exports.run = async (client, message, args) => {
 const embed = new Discord.RichEmbed()
 
 
-      .addField(`**🏷 Brightness Kayıt 🏷**`,
+      .addField(`**MB Code Kayıt Sistemi**`,
       `\n**🔸️Kayıt Edilen Kullanıcı:** ${member.user} \n🔸️**Kayıt Eden Yetkili:** \`${message.author.username}\``)
 client.channels.get('680872181370060911').send(embed)
 };
@@ -25,7 +25,7 @@ exports.conf = {
   enabled: true,
   guildOnly: true,
   aliases: ["nick", "isim"],
-  permLevel: 0
+  permLevel: 1
 };
 exports.help = {
   name: "kız",

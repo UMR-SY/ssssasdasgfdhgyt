@@ -8,7 +8,7 @@ module.exports.run = async (client, message, args) => {
 
   let d = await db.fetch(`okanal_${message.guild.id}`)
   const sea = message.guild.channels.get(d)
-  if (!sea) return message.channel.send('Oylama kanalı ayarlanmamış. Ayarlamak için `sh!oylama-kanal #kanal`')
+  if (!sea) return message.channel.send('Oylama kanalı ayarlanmamış. Ayarlamak için `!oylama-kanal #kanal`')
 
     let yazi = args.slice(0).join(' ')
     if (!yazi) return message.channel.send('Lütfen Oylamada Ne Olacağını Yaz!')

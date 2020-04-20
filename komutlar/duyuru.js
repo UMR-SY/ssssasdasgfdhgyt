@@ -11,7 +11,7 @@ if (!mesaj) return message.channel.send('Lütfen duyuru\'ya atılıcak yazıyı 
   let kanal = client.channels.get(kanalid)
 
   const embed = new Discord.RichEmbed()
-  .setTitle('Duyuru Sistemi - Brigthness')
+  .setTitle('Duyuru Sistemi - MB Code')
   .setDescription(mesaj)
   .setColor('RANDOM')
   kanal.send(embed)
@@ -27,5 +27,5 @@ exports.conf = {
 exports.help = {
   name: 'duyuru',
   description: 'Duyuru sistemi',
-  usage: 'duyuru'
+  usage: "MB Code"
 };

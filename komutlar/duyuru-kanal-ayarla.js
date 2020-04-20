@@ -21,5 +21,5 @@ exports.conf = {
 exports.help = {
     name: 'duyuru-kanal-ayarla',
     description: 'Duyuru kanalını belirler.',
-    usage: 'duyuru-kanal-ayarla <#kanal>'
+    usage: 'MB Code '
 }

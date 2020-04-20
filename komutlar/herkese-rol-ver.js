@@ -30,5 +30,5 @@ exports.conf = {
 exports.help = {
     name: 'rol-ver',
     description: 'Herkese rol verir.',
-    usage: 'herkese-rol-ver @rol / rol-ismi'
+    usage: 'MB Code'
 }

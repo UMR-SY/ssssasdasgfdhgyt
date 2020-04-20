@@ -110,5 +110,5 @@ exports.help = {
   name: 'düello',
   category: "eğlence",
   description: 'İstediğiniz bir kişi ile düello atarsınız!',
-  usage: 'düello <@kullan��cı>'
+  usage: 'MB Code'
 };

@@ -24,5 +24,5 @@ exports.conf = {
 exports.help = {
   name: 'unbanall',
   description: 'Sunucudaki Tüm Yasaklı Kullanıcıların Yasağını Kaldırır!',
-  usage: 'unbanall '
+  usage: 'MB Code '
 };
